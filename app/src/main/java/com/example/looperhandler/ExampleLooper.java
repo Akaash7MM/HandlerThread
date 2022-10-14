@@ -14,13 +14,7 @@ public class ExampleLooper extends Thread{
     @Override
     public void run(){
 
-//        for(int i = 0 ; i<5;i++){
-//
-//            Log.d("RUN","RUN:"+i);
-//            SystemClock.sleep(1000);
-//        }
-
-        //Adds Looper and message Quere
+        //Adds Looper and message Queue
         //Need this before handler or handler wont find a looper for this thread
         Looper.prepare();
 

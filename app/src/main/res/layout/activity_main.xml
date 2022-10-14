@@ -7,25 +7,18 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="208dp"
-        android:layout_height="91dp"
-        android:text="TextView" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Start" />
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/sendButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button2" />
+        android:text="Send" />
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/asyncStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AsyncStart" />
